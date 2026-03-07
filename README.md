@@ -35,6 +35,9 @@ Once the program is running, you can use the following commands:
 | **help** | Display the help menu with available commands. |
 | **exit** | Play the exit audio, display ASCII art, and quit the program. |
 
+<img width="898" height="510" alt="pokemenu" src="https://github.com/user-attachments/assets/52cbeaba-3f0b-4433-88c0-7cdaa65dcc66" />
+
+
 ## Setup & Installation
 
 **Prerequisites:** Java Development Kit (JDK) 8 or higher.
