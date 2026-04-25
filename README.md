@@ -11,7 +11,7 @@ This project is a custom Hash Map implementation of a Pokédex, created by Deves
 ## Technical Highlights
 * **Custom Hash Map (`rareHashCandy.java`)**: Implements an array-based hash table using **open addressing with linear probing** to resolve collisions
 * **Hash Function**: Uses a modulo-based hash function to map keys within the array bounds.
-* ** Resizing**: The table is initialized with a prime number size (1777) to help distribute keys evenly. It actively monitors the load factor ($\lambda = \frac{n}{N}$) and automatically rehashes the table when capacity exceeds 0.7 (70%) to maintain an average search efficiency of $\Theta(1)$.
+* **Resizing**: The table is initialized with a prime number size (1777) to help distribute keys evenly. It actively monitors the load factor ($\lambda = \frac{n}{N}$) and automatically rehashes the table when capacity exceeds 0.7 (70%) to maintain an average search efficiency of $\Theta(1)$.
 * **Tombstone Deletion**: Employs a "fainted" boolean flag as a tombstone placeholder during deletions to ensure linear probing search paths remain intact.
 
 ## Features
